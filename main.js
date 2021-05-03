@@ -17,6 +17,8 @@ cleary.addEventListener("click",deleteItems)
 
 
 function myButts(){
+    let myButts = $('.button1')
+    console.log(myButts)
     for (let i = 0; i < myButts.length; i++){
         myButts[i].addEventListener("click",runME)
         
@@ -35,6 +37,7 @@ if (storedCount !== null) {
 function runME(event){
     let i = Math.floor(Math.random() *QUESTIONS.length)
     let question = QUESTIONS[i];
+    console.log(question)
     let money = ""
     let buttonVal = event.target.value
     while(question.value !== buttonVal){
