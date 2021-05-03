@@ -1,0 +1,83 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    background-color:black;
+    padding: 10px;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container{
+    margin-top: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+.follow{
+    margin-top: 40px;
+}
+
+.follow a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+    
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+#key {
+    position: absolute;
+    left: 810px;
+}
+
+.title {
+    display: flex;
+    color: blue;
+    justify-content: center;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.money{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#abc{
+    margin-left: 35%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-auto{
+    margin-top: 10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cleary{
+    margin-left: 48%;
+    font-size: 15px;
+}
